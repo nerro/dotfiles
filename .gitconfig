@@ -5,6 +5,7 @@
 	gconfig = config --global
 	st = status
 	ci = commit
+	cia = commit --amend -C HEAD
 	br = branch
 	df = diff
 	dc = diff --cached
