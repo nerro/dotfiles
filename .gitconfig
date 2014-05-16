@@ -13,7 +13,7 @@
 	co = checkout
 	cob = checkout -b
 	lg = !git log --graph --decorate --pretty=oneline --abbrev-commit --all
-	wip = "!git add -A; git ls-files --deleted -z | xargs -0 -I {} git rm {}; git commit -m \"wip\""
+	wip = "!git add --all :/; git commit -m \"wip\""
 	unwip = !git log -n 1 | grep -q -c wip && git reset HEAD~1
 [core]
 	pager = less -+ -RX
