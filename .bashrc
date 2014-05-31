@@ -41,6 +41,14 @@ color_bcyan='\e[1;36m'
 color_bwhite='\e[1;37m'
 
 
+#=========
+# ALIASES
+#=========
+alias ls='ls --color=auto'
+alias ll='ls -l'
+alias la='ls -la'
+
+
 #================
 # COMMAND PROMPT
 #================
