@@ -47,6 +47,12 @@ color_bwhite='\e[1;37m'
 alias ls='ls --color=auto'
 alias ll='ls -l'
 alias la='ls -la'
+alias lx='ls -lXB'
+alias lu='ls -lur'
+alias lt='lt -ltr'
+alias .='pwd'
+alias ..='cd ..'
+alias ...='cd ../..'
 
 
 #================
