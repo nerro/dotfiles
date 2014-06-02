@@ -53,6 +53,8 @@ alias lt='lt -ltr'
 alias .='pwd'
 alias ..='cd ..'
 alias ...='cd ../..'
+alias poweroff='sudo systemctl poweroff'
+alias reboot='sudo systemctl reboot'
 
 
 #================
