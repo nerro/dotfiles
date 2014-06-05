@@ -57,6 +57,16 @@ alias poweroff='sudo systemctl poweroff'
 alias reboot='sudo systemctl reboot'
 
 
+#======
+# PATH
+#======
+JAVA_BIN=$(which java 2>/dev/null)
+if [ -z $JAVA_BIN ]; then
+  export JAVA_HOME="/opt/java/jdk1.7"
+  PATH=$PATH:$JAVA_HOME/bin
+fi
+
+
 #================
 # COMMAND PROMPT
 #================
