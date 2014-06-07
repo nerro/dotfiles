@@ -67,6 +67,12 @@ if [ -z $JAVA_BIN ]; then
   PATH=$PATH:$JAVA_HOME/bin
 fi
 
+SCALA_BIN=$(which scala 2>/dev/null)
+if [ -z $SCALA_BIN ]; then
+  export SCALA_HOME="/opt/scala/scala"
+  PATH=$PATH:$SCALA_HOME/bin
+fi
+
 
 #================
 # COMMAND PROMPT
