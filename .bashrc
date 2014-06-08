@@ -73,6 +73,12 @@ if [ -z $SCALA_BIN ]; then
   PATH=$PATH:$SCALA_HOME/bin
 fi
 
+RVM_BIN=$(which rvm 2>/dev/null)
+if [ -z $RVM_BIN ]; then
+  # Add RVM to PATH for scripting
+  PATH=$PATH:$HOME/.rvm/bin
+fi
+
 
 #================
 # COMMAND PROMPT
