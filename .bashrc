@@ -58,6 +58,15 @@ alias poweroff='sudo systemctl poweroff'
 alias reboot='sudo systemctl reboot'
 
 
+#===============
+# ENV & EXPORTS
+#===============
+export HISTCONTROL=ignoreboth
+export HISTSIZE=10000
+export HISTFILESIZE=25000
+export HISTTIMEFORMAT='[%d.%m.%Y %H:%M:%S] - '
+
+
 #======
 # PATH
 #======
