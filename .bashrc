@@ -61,6 +61,7 @@ alias reboot='sudo systemctl reboot'
 #===============
 # ENV & EXPORTS
 #===============
+export LESSHISTFILE="$XDG_CONFIG_HOME/less/lesshst"
 export HISTCONTROL=ignoreboth
 export HISTSIZE=10000
 export HISTFILESIZE=25000
