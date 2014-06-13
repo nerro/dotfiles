@@ -169,3 +169,6 @@ function prompt_command() {
 PROMPT_COMMAND=prompt_command
 PS1='[\t] \u@\h:\w \$ '
 
+# git autocomplete
+source /usr/share/git/completion/git-completion.bash
+
