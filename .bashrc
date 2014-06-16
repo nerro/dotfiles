@@ -67,6 +67,7 @@ export HISTSIZE=10000
 export HISTFILESIZE=25000
 export HISTTIMEFORMAT='[%d.%m.%Y %H:%M:%S] - '
 export HISTIGNORE='ls:la:ll'
+export XAUTHORITY="$XDG_CACHE_HOME/X11/Xauthority"
 
 
 #======
