@@ -61,6 +61,7 @@ alias reboot='sudo systemctl reboot'
 #===============
 # ENV & EXPORTS
 #===============
+export RXVT_SOCKET="$XDG_CACHE_HOME/urxvt/urxvtd"
 export LESSHISTFILE="$XDG_CONFIG_HOME/less/lesshst"
 export INPUTRC="$XDG_CONFIG_HOME/bash/inputrc"
 export HISTCONTROL=ignoreboth
